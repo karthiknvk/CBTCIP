@@ -169,7 +169,7 @@ def print_bill(name_entry,mob_entry):
 frame1=tk.LabelFrame(root,border=0,bg=c1)
 frame1.grid(row=0,column=0,)
 frame1.grid_columnconfigure(0,weight=1)
-heading=tk.Label(frame1,text="GROCERY",padx=10,pady=10,font=(font1,55,'bold'),bg=c1,fg=c4)
+heading=tk.Label(frame1,text="RECEIPT GENERATOR",padx=10,pady=10,font=(font1,55,'bold'),bg=c1,fg=c4)
 heading.grid(row=0,padx=10,pady=10,sticky='ew')
 
 frame2=tk.LabelFrame(root,border=0,bg=c1)
